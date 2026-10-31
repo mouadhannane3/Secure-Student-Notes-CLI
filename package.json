@@ -1,0 +1,23 @@
+{
+    "name": "secure-student-notes",
+    "version": "1.0.0",
+    "description": "A secure local CLI for managing student notes using AES-256-GCM encryption.",
+    "type": "module",
+    "main": "src/cli.js",
+    "scripts": {
+        "start": "node src/cli.js",
+        "test": "node --test"
+    },
+    "keywords": [
+        "nodejs",
+        "aes-256-gcm",
+        "cryptography",
+        "cli",
+        "student-notes",
+        "encryption"
+    ],
+    "license": "MIT",
+    "dependencies": {
+        "@inquirer/prompts": "^7.0.0"
+    }
+}
